@@ -1,0 +1,29 @@
+{
+  "name": "ShellGame",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/game.ts",
+  "scripts": {
+    "dev": "rollup --config rollup.config.dev.js",
+    "build": "rollup --config rollup.config.dist.js",
+    "watch": "rollup --watch --config rollup.config.dev.js"
+  },
+  "author": "pm",
+  "license": "",
+  "dependencies": {
+    "phaser": "^3.21.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-replace": "^2.2.1",
+    "rollup": "^1.27.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-copy": "^3.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-typescript2": "^0.25.2",
+    "rollup-plugin-uglify": "^6.0.3",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2",
+    "typescript-tslint-plugin": "^0.5.5"
+  }
+}

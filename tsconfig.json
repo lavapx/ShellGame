@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "types" : ["phaser"],
+        "target": "ES6",
+        "strict": false,
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "plugins": [
+            {
+              "name": "typescript-tslint-plugin",
+              "alwaysShowRuleFailuresAsWarnings": false,
+              "ignoreDefinitionFiles": true,
+              "suppressWhileTypeErrorsPresent": true
+            }
+        ],
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "./typings/phaser/types/phaser.d.ts"
+    ]
+}

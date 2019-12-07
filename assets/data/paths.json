@@ -1,0 +1,135 @@
+{"cupMotion": 
+    [ 
+        {
+            "k_from": -1,
+            "k_to": 0,
+            "pathData":{
+                "type": "Line",
+                "points": [200, -150, 200, 150]
+            }
+        }, 
+        {
+            "k_from": -1,
+            "k_to": 1,
+            "pathData":{
+                "type": "Line",
+                "points": [400, -150, 400, 150]
+            }
+        },
+        {
+            "k_from": -1,
+            "k_to": 2,
+            "pathData":{
+                "type": "Line",
+                "points": [600, -150, 600, 150]
+            }
+        },
+        {
+            "k_from": 0,
+            "k_to": 1,
+            "pathData":{
+                "type": "CubicBezier",
+                "points": [200, 150, 225, 80, 375, 80, 400, 150]
+            }
+        }, 
+        {
+            "k_from": 1,
+            "k_to": 2,
+            "pathData":{
+                "type": "CubicBezier",
+                "points": [400, 150, 425, 80, 575, 80, 600, 150]
+            }
+        },
+        {
+            "k_from": 2,
+            "k_to": 1,
+            "pathData":{
+                "type": "CubicBezier",
+                "points": [600, 150, 575, 220, 425, 220, 400, 150]
+            }
+        },
+        {
+            "k_from": 1,
+            "k_to": 0,
+            "pathData":{
+                "type": "CubicBezier",
+                "points": [400, 150, 375, 220, 225, 220, 200, 150]
+            }
+        },
+        {
+            "k_from": 0,
+            "k_to": 2,
+            "pathData":{
+                "type": "CubicBezier",
+                "points": [200, 150, 275, 40, 525, 40, 600, 150]
+            }
+        },
+        {
+            "k_from": 2,
+            "k_to": 0,
+            "pathData":{
+                "type": "CubicBezier",
+                "points": [600, 150, 525, 260, 275, 260, 200, 150]
+            }
+        }
+    ],
+"ballMotion":
+    [ 
+        {
+            "k_from": -1,
+            "k_to": 0,
+            "pathData":{
+                "type": "Line",
+                "points": [-50, 285, 200, 285]
+            }
+        },
+        {
+            "k_from": 0,
+            "k_to": 3,
+            "pathData":{
+                "type": "Line",
+                "points": [200, 285, 200, 220]
+            }
+        },
+        {
+            "k_from": 1,
+            "k_to": 3,
+            "pathData":{
+                "type": "Line",
+                "points": [400, 285, 400, 220]
+            }
+        },
+        {
+            "k_from": 2,
+            "k_to": 3,
+            "pathData":{
+                "type": "Line",
+                "points": [600, 285, 600, 220]
+            }
+        },
+        {
+            "k_from": 3,
+            "k_to": 0,
+            "pathData":{
+                "type": "Line",
+                "points": [200, 220, 200, 285]
+            }
+        },
+        {
+            "k_from": 3,
+            "k_to": 1,
+            "pathData":{
+                "type": "Line",
+                "points": [400, 220, 400, 285]
+            }
+        },
+        {
+            "k_from": 3,
+            "k_to": 2,
+            "pathData":{
+                "type": "Line",
+                "points": [600, 220, 600, 285]
+            }
+        }
+    ]
+}
